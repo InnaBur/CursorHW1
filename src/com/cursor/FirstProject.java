@@ -2,7 +2,7 @@ package com.cursor;
 
 /** In this class I`m training with arithmetic operations
  *  with primitives: byte, short, long, double, float,
-  * and writing results of each operation into console
+ * and writing results of each operation into console
  */
 public class FirstProject {
 
@@ -47,10 +47,18 @@ public class FirstProject {
         //Double is a double-precision 64-bit IEEE 754 floating point
         double d = 1345.456d;
         double d1 = 123.677d;
+        double addDouble = d + d1;
+        double subDouble = d - d1;
+        double mulDouble = d * d1;
+        double divDouble = d / d1;
 
         //Float is a single-precision 32-bit IEEE 754 floating point.
         float f = 0.345f;
         float f1 = 2.0f;
+        float addFloat = f + f1;
+        float subFloat = f - f1;
+        float mulFloat = f * f1;
+        float divFloat = f / f1;
 
         /*
          *  Printing results
@@ -60,28 +68,26 @@ public class FirstProject {
                                     "\n" + a + " - " + b + " = " + subByte +
                                     "\n" + a + " * " + b + " = " + mulByte +
                                     "\n" + a + " / " + b + " = " + divByte);
-        System.out.println("Short:   \n" + sh1 + " + " + sh2 + " = " + (sh1 + sh2) +
+        System.out.println("Short:   \n" + sh1 + " + " + sh2 + " = " + addShort +
                                     "\n" + sh1 + " - " + sh2 + " = " + subShort +
-                                    "\n" + sh1 + " * " + sh2 + " = " + (sh1 * sh2) +
-                                    "\n" + sh1 + " / " + sh2 + " = " + (sh1 / sh2));
-        System.out.println("Int:     \n" + first + " + " + second + " = " + (first + second) +
-                                    "\n" + first + " - " + second + " = " + (first - second) +
-                                    "\n" + first + " * " + second + " = " + (first * second) +
-                                    "\n" + first + " / " + second + " = " + (first / second));
-        System.out.println("Long:    \n" + l + " + " + l1 + " = " + (l + l1) +
-                                    "\n" + l + " - " + l1 + " = " + (l - l1) +
-                                    "\n" + l + " * " + l1 + " = " + (l * l1) +
-                                    "\n" + l + " / " + l1 + " = " + (l / l1));
-        System.out.println("Double:  \n" + d + " + " + d1 + " = " + (d + d1) +
-                                    "\n" + d + " - " + d1 + " = " + (d - d1) +
-                                    "\n" + d + " * " + d1 + " = " + (d * d1) +
-                                    "\n" + d + " / " + d1 + " = " + (d / d1));
-        System.out.println("Float:   \n" + f + " + " + f1 + " = " + (f + f1) +
-                                    "\n" + f + " - " + f1 + " = " + (f - f1) +
-                                    "\n" + f + " * " + f1 + " = " + (f * f1) +
-                                    "\n" + f + " / " + f1 + " = " + (f / f1));
-
-
+                                    "\n" + sh1 + " * " + sh2 + " = " + mulShort +
+                                    "\n" + sh1 + " / " + sh2 + " = " + divShort);
+        System.out.println("Int:     \n" + first + " + " + second + " = " + addInt +
+                                    "\n" + first + " - " + second + " = " + subInt +
+                                    "\n" + first + " * " + second + " = " + mulInt +
+                                    "\n" + first + " / " + second + " = " + divInt);
+        System.out.println("Long:    \n" + l + " + " + l1 + " = " + addLong +
+                                    "\n" + l + " - " + l1 + " = " + subLong +
+                                    "\n" + l + " * " + l1 + " = " + mulLong +
+                                    "\n" + l + " / " + l1 + " = " + divLong);
+        System.out.println("Double:  \n" + d + " + " + d1 + " = " + addDouble +
+                                    "\n" + d + " - " + d1 + " = " + subDouble +
+                                    "\n" + d + " * " + d1 + " = " + mulDouble +
+                                    "\n" + d + " / " + d1 + " = " + divDouble);
+        System.out.println("Float:   \n" + f + " + " + f1 + " = " + addFloat +
+                                    "\n" + f + " - " + f1 + " = " + subFloat +
+                                    "\n" + f + " * " + f1 + " = " + mulFloat +
+                                    "\n" + f + " / " + f1 + " = " + divFloat);
     }
 
 }
